@@ -103,7 +103,7 @@ section.gallery {
   }
 }
 
-@media (width <= 24rem) {
+@media (width <= 28rem) {
   section.gallery {
     max-width: 24rem;
     padding: 0.75rem 1.25rem;
