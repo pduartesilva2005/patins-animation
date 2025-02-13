@@ -6,7 +6,7 @@
 
 ## Projeto 💻
 
-O projeto é uma landing page de marketing completa e responsiva de um aplicativo de Karaokê chamado Zingen.
+O projeto é uma landing page responsiva de um patins com muitas animações e transições.
 
 Esse é um desafio prático da formação Full-Stack, um dos conteúdos disponíveis para alunos da Rocketseat.
 
