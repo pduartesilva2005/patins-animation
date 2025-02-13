@@ -102,3 +102,31 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+@media (width <= 24rem) {
+  section.gallery {
+    max-width: 24rem;
+    padding: 0.75rem 1.25rem;
+
+    & .content {
+      grid-template-areas:
+        "A"
+        "B"
+        "C"
+        "D";
+      gap: 1.5rem;
+
+      & figure {
+        animation-range: 50px 250px;
+
+        &[data-delay] {
+          animation-range: 100px 300px;
+        }
+      }
+
+      & figure > img {
+        height: 16rem;
+      }
+    }
+  }
+}
